@@ -1,0 +1,38 @@
+public class Pessoa {
+  private String nome;
+  private int idade;
+  private double altura;
+  private double peso;
+
+public String Nome (){
+return nome;
+}
+
+public int Idade (){
+return idade;
+}
+
+public double Altura (){
+return altura;
+}
+
+public double Peso (){
+return peso;
+}
+
+public void setNome (String nome){
+this.nome=nome;
+}
+
+public void setIdade (int idade){
+this.idade=idade;
+}
+
+public void setAltura (double altura){
+this.altura=altura;
+}
+
+public void setPeso (double peso){
+this.peso=peso;
+}
+}

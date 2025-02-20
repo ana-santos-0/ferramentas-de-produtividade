@@ -1,0 +1,6 @@
+public class Cilindro {
+  private double altura;
+  private double raio;
+
+  public double getAltura (){
+  this.altura=altura;

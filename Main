@@ -3,3 +3,11 @@ public class Main {
     double volume;
     double raio;
     double altura;
+    Cilindro cilindro = new Cilindro ();
+    
+    cilindro.setAltura();
+    cilindro.setRaio();
+
+    volume=cilindro.calcularVolume;
+  }
+}

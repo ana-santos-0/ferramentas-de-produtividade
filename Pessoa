@@ -35,4 +35,10 @@ this.altura=altura;
 public void setPeso (double peso){
 this.peso=peso;
 }
+
+public double calcularIMC (){
+double imc;
+imc = peso / (altura*altura);
+return imc;
+}
 }

@@ -3,4 +3,23 @@ public class Cilindro {
   private double raio;
 
   public double getAltura (){
+  return altura;
+  }
+
+  public double getRaio (){
+  return raio;
+  }
+
+  public void setAltura (double altura){
   this.altura=altura;
+  }
+
+  public void setRaio (double raio){
+  this.raio=raio;
+  }
+
+  public double calcularVolume (double altura, double raio){
+  double vol;
+  vol = 3.14159 * (raio*raio) * altura;
+  }
+}
